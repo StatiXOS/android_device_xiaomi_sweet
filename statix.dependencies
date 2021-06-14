@@ -1,0 +1,16 @@
+[
+   {
+      "repository":"android_vendor_xiaomi_sweet",
+      "target_path":"vendor/xiaomi/sweet"
+   },
+   {
+      "repository":"android_kernel_xiaomi_sweet",
+      "target_path":"kernel/xiaomi/sweet"
+   },
+   {
+      "repository":"LineageOS/android_packages_resources_devicesettings",
+      "target_path":"packages/resources/devicesettings",
+      "branch":"lineage-18.1",
+      "remote":"github"
+   }
+]
