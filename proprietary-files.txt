@@ -100,7 +100,6 @@ system_ext/lib64/vendor.qti.ims.callinfo@1.0.so
 system_ext/lib64/vendor.qti.ims.rcsconfig@1.0.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/lib64/vendor.qti.ims.factory@1.0.so
--system_ext/priv-app/ims/ims.apk
 
 # Perf
 system_ext/lib64/vendor.qti.hardware.iop@2.0.so
@@ -128,8 +127,9 @@ system_ext/framework/qcrilhook.jar
 vendor/lib/soundfx/libvolumelistener.so:product/vendor_overlay/30/lib/soundfx/libvolumelistener.so:|672ad577dab5221bdd7f840d87313e3483aebde0
 vendor/lib64/soundfx/libvolumelistener.so:product/vendor_overlay/30/lib64/soundfx/libvolumelistener.so|c25cc5e8c3622eb97d3bb4814aeb301c01d8b046
 
-# Telephony
-system_ext/framework/qti-telephony-common.jar
+# Telephony - LA.QSSI.11.0.r1-10400-qssi.0
+-system_ext/priv-app/ims/ims.apk|9bd9423a998eae93b2c94a4820459d7b33c8a51a
+system_ext/framework/qti-telephony-common.jar|1fd37129f961e58f9d1189736e2cb46290666b97
 
 # WiFi Display
 -framework/WfdCommon.jar
