@@ -10,6 +10,7 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 # Inherit some common StatixOS stuff.
 $(call inherit-product, vendor/statix/config/common.mk)
 $(call inherit-product, vendor/statix/config/gsm.mk)
+TARGET_HAS_NOTCH := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := statix_sweet
