@@ -1,0 +1,10 @@
+android_app_import {
+    apk: "GCamGo.apk",
+    name: "GCamGo",
+    overrides: [
+        "Camera2",
+        "Camera",
+    ],
+    product_specific: true,
+    presigned: true,
+}
